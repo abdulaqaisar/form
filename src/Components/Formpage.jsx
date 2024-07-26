@@ -78,7 +78,7 @@ const Formpage = () => {
                 type="text"
                 placeholder="Type Of Item i.e Plushie/KeyChain"
               />
-              <input type="text" placeholder="Quantity Left in Box" />
+              <input type="text" placeholder="Name of item i.e Dog or Cat" />
             </div>
             <div className="imageinfo" style={{ width: "50%" }}>
               <input type="text" placeholder="Quantity Taken out of box" />
