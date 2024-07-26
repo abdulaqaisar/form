@@ -80,10 +80,11 @@ const Formpage = () => {
               />
               <input type="text" placeholder="Name of item i.e Dog or Cat" />
             </div>
-            <div className="imageinfo" style={{ width: "50%" }}>
+            <div className="imageinfo">
               <input type="text" placeholder="Quantity Taken out of box" />
+              <button className="btn">Submit</button>
             </div>
-            <button className="btn">Submit</button>
+            {/* <button className="btn">Submit</button> */}
           </div>
         </div>
       </div>

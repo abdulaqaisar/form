@@ -39,9 +39,11 @@
 .fields {
   height: 50vh;
   width: 70%;
+  margin-top: 30px;
   margin-left: 15%;
   display: flex;
   flex-direction: column;
+  /* border: 1px solid black; */
 }
 
 .imageinfo {
@@ -63,17 +65,17 @@
 }
 
 .btn {
-  width: 25%;
-  height: 15%;
-  margin: 30px;
+  width: 255px;
+  height: 40px;
+  /* margin-left: 58px; */
   color: rgb(255, 255, 255);
   background-color: rgb(6, 0, 61);
   border: none;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   outline: none;
-  margin-left: 38%;
   font-size: 16px;
   transition: 0.05s ease-in-out;
+  /* border: 1px solid red; */
 }
 
 .btn:hover {
